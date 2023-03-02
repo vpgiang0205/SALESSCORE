@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>SALES SCORE</title>
+</head>
+
+<body>
+    <div class="layout">
+        <div class="top_page">
+            <!-- BreadcrumbNavi -->
+            <div>
+                <select name="drop" id="dropdown">
+                    <option value="トップ">トップ</option>
+                    <option value="ログイン">ログイン</option>
+                    <option value="お問い合わせ">お問い合わせ</option>
+                    <option value=" 検査結果画面の解説 ">検査結果画面の解説 </option>
+                    <option value=" 主な機能 ">主な機能 </option>
+                    <option value=" 利用シーン別ガイド ">利用シーン別ガイド </option>
+                    <option value=" 初めてご利用の方へ ">初めてご利用の方へ </option>
+                    <option value=" FAQ ">FAQ </option>
+                </select>
+            </div>
+            <!-- LeftNavi -->
+            <div class="grid__column-1">
+                <div class="leftNavi">
+                    <div class="left__NaviBorder">
+                        <ul class="logo__Container"> <!-- logo -->
+                            <img src="./images/logo.png" class="logo" alt="Logo">
+
+                            <button type="submit" class="left__NaviBtn"><!-- button -->
+                                <a href="#">サポートサイト</a></button>
+                        </ul>
+                        <!-- list -->
+                        <ul class="left__NaviList">
+                            <a href="#">
+                                <li class="left__NaviListlink">検査結果画面の解説 <img class="icon__Forward"
+                                        src="./images/LeftMenu_Arrow.png" alt="forwardArrow"></li>
+                            </a>
+                            <a href="#">
+                                <li class="left__NaviListlink">主な機能<img class="icon__Forward"
+                                        src="./images/LeftMenu_Arrow.png" alt="forwardArrow">
+                                </li>
+                            </a>
+                            <a href="#">
+                                <li class="left__NaviListlink">利用シーン別ガイド<img class="icon__Forward"
+                                        src="./images/LeftMenu_Arrow.png" alt="forwardArrow"></li>
+                            </a>
+                            <a href="#">
+                                <li class="left__NaviListlink">初めてご利用の方へ<img class="icon__Forward"
+                                        src="./images/LeftMenu_Arrow.png" alt="forwardArrow"></li>
+                            </a>
+                            <a href="#">
+                                <li class="left__NaviListlink">FAQ<img class="icon__Forward"
+                                        src="./images/LeftMenu_Arrow.png" alt="forwardArrow">
+                                </li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+            <!-- RightContent-->
+            <div class="grid__column-2">
+                <div class="right__AppContainer">
+                    <header>
+                        <!-- bread & nav -->
+                        <div class="header__Container">
+                            <div class="bread"><img class="icon_home" src="./images/homeBread.png" alt="icon_home">トップ
+                            </div>
+                            <div class="nav">
+                                <a href="#">ログイン<img src="./images/gotoNav.png" class="icon_goto" alt="icon_goto"></a>
+                                <a href="#">お問い合わせ<img src="./images/mailNav.png" class="icon_mail" alt="icon_mail"></a>
+                            </div>
+                        </div>
+                        <!-- search -->
+                        <div class="search__Container">
+                          
+                            <span></span><span></span>
+                            <p class="">どんな事でお困りですか？</p>
+                            <div class=" search__Box">
+                                <img class="icon__Search" src="./images/iconSearch.png" alt="">
+                                <input class="input__Search" type="text" placeholder="キーワードを入力">
+                            </div>
+                            <div>
+                                <button class="btn__Search">検索</button>
+                            </div>
+                            <span></span><span></span>
+                            <span></span>
+                        </div>
+                        <!-- indication of current page (xác định trang hiện tại) -->
+                        <div id="brdcrmb">
+                            <nav aria-label="breadcrumb">
+                                <ul class="breadcrumb" id="brdcrb">
+                                    <li class="breadcrumb-item active">トップ /</li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </header>
+
+                    <main>
+                        <!-- #Section 1: Guild -->
+                        <section id="section1">
+                            <!-- title guild -->
+                            <div class="title_guild">
+                                <img src="./images/title_guildHero.png" alt="hero image">
+                                <div class="intro">
+                                    <h2>利用シーン別ガイド</h2>
+                                    <p>SALES SCOREを様々なシーンでご活用いただく方法をご紹介します。</p>
+                                </div>
+                            </div>
+                            <!-- content guild -->
+                            <div class="content_guild">
+                                <button type="submit" class="btn_3col">
+                                    <img src="./images/title_guildGrap.png" class="icon_titleChart" alt="chart image">
+                                    <p>受検者の営業活動の特徴を 見える化したい</p>
+                                </button>
+
+                                <button type="submit" class="btn_3col">
+                                    <img src="./images/title_guildUser.png" class="icon_titleUser" alt="user image">
+                                    <p>ポテンシャルの高い人材を 採用したい</p>
+                                </button>
+
+                                <button type="submit" class="btn_3col">
+                                    <img src="./images/title_guildGrow.png" class="icon_titleGrow" alt="user image">
+                                    <p>離職率を改善したい</p>
+                                </button>
+
+                                <button type="submit" class="btn_3col">
+                                    <img src="./images/title_guildSearch.png" class="icon_titleSearch" alt="user image">
+                                    <p>成績優秀層を分析したい</p>
+                                </button>
+
+                                <button type="submit" class="btn_3col">
+                                    <img src="./images/title_guildWindow.png" class="icon_titleWindow" alt="user image">
+                                    <p>自社の特徴を理解したい</p>
+                                </button>
+
+                                <button type="submit" class="btn_3col">
+                                    <img src="./images/title_guildMessage.png" class="icon_titleMessage"
+                                        alt="user image">
+                                    <p>社員のコミュニケーションを 改善したい</p>
+                                </button>
+                            </div>
+
+                        </section>
+                        <!-- #Section 2: Output -->
+                        <section id="section2">
+                            <!-- title output -->
+                            <div class="title_output">
+                                <img src="./images/title_outputHero.png" alt="hero image">
+                                <div class="intro">
+                                    <h2>検査結果画面の解説</h2>
+                                    <p>SALES SCOREのアウトプット項目について紹介します。</p>
+                                </div>
+                            </div>
+                            <!-- content output icon -->
+                            <div class="content_output_icon">
+                                <div class="subTitle">
+                                    
+                                    <img src="./images/line.png" class="line" alt="">
+                                    <h2>適性検査のアウトプット</h2>
+                                </div>
+                                <div class="button_4col">
+                                    <button type="submit" class="btn_4col">
+                                        <img src="./images/outputChart1.png" class="icon_output_1" alt="output chart 1">
+                                        <p>データサマリー</p>
+                                    </button>
+                                    <button type="submit" class="btn_4col">
+                                        <img src="./images/outputChart2.png" class="icon_output 2" alt="output chart 2">
+                                        <p>データ詳細</p>
+                                    </button>
+                                    <button type="submit" class="btn_4col">
+                                        <img src="./images/outputChart3.png" class="icon_output 3" alt="output chart 3">
+                                        <p>データ比較</p>
+                                    </button>
+                                </div>
+
+                                <div class="subTitle" class="btn_4col">
+                                    
+                                    <img src="./images/line.png" class="line_medium" alt="">
+                                    <h2>企業傾向分析</h2>
+                                </div>
+                                <div class="button_4col">
+                                    <button type="submit" class="btn_4col">
+                                        <img src="./images/outputChart4.png" class="icon_output 4" alt="output chart 4">
+                                        <p>全体比較</p>
+                                    </button>
+                                    <button type="submit" class="btn_4col">
+                                        <img src="./images/outputChart5.png" class="icon_output 5" alt="output chart 5">
+                                        <p>営業タイプ傾向</p>
+                                    </button>
+                                    <button type="submit" class="btn_4col">
+                                        <img src="./images/outputChart6.png" class="icon_output 6" alt="output chart 6">
+                                        <p>High-Low分析</p>
+                                    </button>
+                                    <button type="submit" class="btn_4col">
+                                        <img src="./images/outputChart7.png" class="icon_output 7" alt="output chart 7">
+                                        <p>構成比比較</p>
+                                    </button>
+                                </div>
+                                <div class="subTitle_moremargin">
+                                    
+                                    <img src="./images/line.png" class="line_medium" alt="">
+                                    <h2>検査結果詳細</h2>
+
+                                </div>
+
+                                <div class="button_4col">
+                                    <button type="submit" class="btn_4col">
+                                        <img src="./images/outputChart8.png" class="icon_output " alt="output chart 8">
+                                        <p>表示される予測値</p>
+                                    </button>
+                                    <button type="submit" class="btn_4col">
+                                        <img src="./images/outputChart9.png" class="icon_output " alt="output chart 9">
+                                        <p>表示される営業タイプ</p>
+                                    </button>
+                                </div>
+
+                            </div>
+
+                        </section>
+
+                        <!-- #Section 3: Function -->
+                        <section id="section3">
+                            <!-- title function -->
+                            <div class="title_function">
+                                <img src="./images/title_functionHero.png" alt="">
+                                <div class="intro_Function">
+                                    <h2>主な機能</h2>
+                                    <p>SALES SCOREの利用方法及び、ツールに表示される項目について紹介します。</p>
+                                </div>
+                            </div>
+                            <!-- content function -->
+                            <div class="content_function">
+                                <div class="function__Box">
+                                    <div class="subTitle">
+                                        
+                                        <img src="./images/line.png" alt="line" class="line">
+                                        <h2>管理者</h2>
+                                    </div>
+                                    <div class="function">
+                                        <p class="function__Text"> ・管理者の登録・編集 <br>
+                                            ・表示される管理者情報</p>
+                                    </div>
+                                </div>
+
+                                <div class="function__Box">
+                                    <div class="subTitle">
+                                        
+                                        <img src="./images/line.png" alt="line" class="line">
+                                        <h2>従業員</h2>
+                                    </div>
+                                    <div class="function">
+                                        <p class="function__Text">・従業員の登録・編集 <br>
+                                        ・表示される従業員情報</p>
+                                    </div>
+                                </div>
+
+                                <div class="function__Box_mediumMargin">
+                                    <div class="subTitle">
+                                        
+                                        <img src="./images/line.png" alt="line" class="line">
+                                        <h2>応募者</h2>
+                                    </div>
+                                    <div class="function">
+                                        <p class="function__Text">・応募者の登録・編集 <br>
+                                         ・表示される応募者情報</p>
+                                    </div>
+                                </div>
+
+                                <div class="function__Box_mediumMargin">
+                                    <div class="subTitle">
+                                        
+                                        <img src="./images/line.png" alt="line" class="line_4">
+                                        <h2>実績データの登録</h2>
+                                    </div>
+                                    <div class="function">
+                                        <p class="function__Text-smallLineHeight">・実績の登録・編集 <br>
+                                             ・分析対象範囲の指定 <br>
+                                             ・成績区分の指定</p>
+                                    </div>
+                                </div>
+
+                                <div class="function__Box_hardMargin">
+                                    <div class="subTitle">
+                                        
+                                        <img src="./images/line.png" alt="line" class="line_5">
+                                        <h2>適性検査</h2>
+                                    </div>
+                                    <div class="function">
+                                        <p class="function__Text-smallLineHeight">・適性検査推奨環境 <br>
+                                            ・受検メールの送信 <br>
+                                            ・ＵＲＬの発行 <br>
+                                            ・受検者のステータス<br>
+                                            ・検査実施項目</p>
+                                    </div>
+                                </div>
+
+                                <div class="function__Box_hardMargin">
+                                    <div class="subTitle">
+                                        
+                                        <img src="./images/line.png" alt="line" class="line_6">
+                                        <h2>ダッシュボード機能</h2>
+                                    </div>
+                                    <div class="function">
+                                        <p class="function__Text">・実績データ分析機能 <br>
+                                            ・運用サポート機能</p>
+                                    </div>
+                                </div>
+
+                                <div class="function__Box_veryHardMargin">
+                                    <div class="subTitle">
+                                        
+                                        <img src="./images/line.png" alt="line" class="line_7">
+                                        <h2>契約について</h2>
+                                    </div>
+                                    <div class="function">
+                                        <p class="function__Text">・契約情報の確認 <br>
+                                            ・解約の方法</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </main>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="footer">
+        <div class="box">
+            <p class="a">Copyright © 2022 SALES SCORE All Right Reserved. .</p>
+        </div>
+
+    </div>
+    <!-- script for breadcrumb -->
+    <script src="./js/breadcrumb.js"></script>
+</body>
+
+</html>
