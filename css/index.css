@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -71,25 +72,26 @@ a:visited {
   max-width: 100%;
   display: grid;
   justify-content: center;
+  /* RESPONSIVE 1 top_page: phần này dành cho các phần tử tính từ top_page vào trong */
 }
-.layout .top_page {
+.layout .top__page {
   display: grid;
   justify-content: center;
   max-width: 100%;
 }
-.layout .top_page #dropdown {
+.layout .top__page #dropdown {
   display: none;
 }
-.layout .top_page #brdcrmb {
+.layout .top__page #brdcrmb {
   display: none;
 }
-.layout .top_page .breadcrumb {
+.layout .top__page .breadcrumb {
   display: none;
 }
-.layout .top_page #brdcrmb li {
+.layout .top__page #brdcrmb li {
   display: none;
 }
-.layout .top_page .grid__column-1 .leftNavi {
+.layout .top__page .grid__column-1 .left__Navi {
   height: 521px;
   width: 220px;
   display: flex;
@@ -97,21 +99,21 @@ a:visited {
   align-items: center;
   margin-right: 50px;
 }
-.layout .top_page .grid__column-1 .leftNavi .left__NaviBorder {
+.layout .top__page .grid__column-1 .left__Navi .left__NaviBorder {
   border: 1px solid var(--border-navi);
 }
-.layout .top_page .grid__column-1 .leftNavi .left__NaviBorder .logo__Container {
+.layout .top__page .grid__column-1 .left__Navi .left__NaviBorder .logo__Container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.layout .top_page .grid__column-1 .leftNavi .left__NaviBorder .logo__Container .logo {
+.layout .top__page .grid__column-1 .left__Navi .left__NaviBorder .logo__Container .logo {
   width: 163.3px;
   height: 54.1px;
   margin: 32px 31px 0px 26px;
 }
-.layout .top_page .grid__column-1 .leftNavi .left__NaviBorder .logo__Container .left__NaviBtn {
+.layout .top__page .grid__column-1 .left__Navi .left__NaviBorder .logo__Container .left__NaviBtn {
   margin-top: 19px;
   width: 176px;
   height: 43px;
@@ -120,7 +122,7 @@ a:visited {
   background-color: var(--primary-color);
   padding: 8px 5px 13px 8px;
 }
-.layout .top_page .grid__column-1 .leftNavi .left__NaviBorder .logo__Container .left__NaviBtn p {
+.layout .top__page .grid__column-1 .left__Navi .left__NaviBorder .logo__Container .left__NaviBtn p {
   font-size: 18px;
   font-weight: bold;
   line-height: 18px;
@@ -128,11 +130,11 @@ a:visited {
   text-align: center;
   letter-spacing: 2px;
 }
-.layout .top_page .grid__column-1 .leftNavi .left__NaviBorder .left__NaviList {
+.layout .top__page .grid__column-1 .left__Navi .left__NaviBorder .left__NaviList {
   margin-top: 27px;
   width: 218px;
 }
-.layout .top_page .grid__column-1 .leftNavi .left__NaviBorder .left__NaviList .left__NaviListlink {
+.layout .top__page .grid__column-1 .left__Navi .left__NaviBorder .left__NaviList .left__NaviListlink {
   border-bottom: 1px solid var(--border-navi);
   border-top: 1px solid var(--border-navi);
   height: 70px;
@@ -145,41 +147,41 @@ a:visited {
   font-style: normal;
   text-align: left;
 }
-.layout .top_page .grid__column-1 .leftNavi .left__NaviBorder .left__NaviList .left__NaviListlink .icon__Forward {
+.layout .top__page .grid__column-1 .left__Navi .left__NaviBorder .left__NaviList .left__NaviListlink .icon__Forward {
   position: absolute;
   right: 20px;
   top: 25px;
   width: 9px;
   height: 14px;
 }
-.layout .top_page .grid__column-2 {
+.layout .top__page .grid__column-2 {
   grid-column: 3/4;
 }
-.layout .top_page .grid__column-2 .right__AppContainer {
+.layout .top__page .grid__column-2 .right__AppContainer {
   max-width: 100%;
   display: grid;
   position: relative;
 }
-.layout .top_page .grid__column-2 .right__AppContainer header {
+.layout .top__page .grid__column-2 .right__AppContainer header {
   margin-left: 0px;
   margin-top: 21px;
 }
-.layout .top_page .grid__column-2 .right__AppContainer header .header__Container {
+.layout .top__page .grid__column-2 .right__AppContainer header .header__Container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.layout .top_page .grid__column-2 .right__AppContainer header .header__Container .icon_home {
+.layout .top__page .grid__column-2 .right__AppContainer header .header__Container .icon_home {
   margin-right: 10px;
   width: 17.9px;
   height: 15.9px;
 }
-.layout .top_page .grid__column-2 .right__AppContainer header .header__Container .nav {
+.layout .top__page .grid__column-2 .right__AppContainer header .header__Container .nav {
   display: flex;
   align-items: center;
   margin-right: 2px;
 }
-.layout .top_page .grid__column-2 .right__AppContainer header .header__Container .nav a {
+.layout .top__page .grid__column-2 .right__AppContainer header .header__Container .nav a {
   font-size: 14px;
   font-weight: 400;
   line-height: 14px;
@@ -187,18 +189,18 @@ a:visited {
   text-align: left;
   color: #7b7b7b;
 }
-.layout .top_page .grid__column-2 .right__AppContainer header .header__Container .nav .icon_goto {
+.layout .top__page .grid__column-2 .right__AppContainer header .header__Container .nav .icon_goto {
   margin-right: 25px;
   margin-left: 7px;
   width: 14px;
   height: 14px;
 }
-.layout .top_page .grid__column-2 .right__AppContainer header .header__Container .nav .icon_mail {
+.layout .top__page .grid__column-2 .right__AppContainer header .header__Container .nav .icon_mail {
   margin-left: 7px;
   width: 20px;
   height: 15px;
 }
-.layout .top_page .grid__column-2 .right__AppContainer header .search__Container {
+.layout .top__page .grid__column-2 .right__AppContainer header .search__Container {
   margin-top: 19px;
   height: 90px;
   border-radius: 55px;
@@ -208,7 +210,7 @@ a:visited {
   flex-wrap: wrap;
   padding: 0 85px;
 }
-.layout .top_page .grid__column-2 .right__AppContainer header .search__Container .search__Box {
+.layout .top__page .grid__column-2 .right__AppContainer header .search__Container .search__Box {
   width: 426px;
   border: 1px solid var(--search-color-primary);
   background-color: var(--white-color);
@@ -219,7 +221,7 @@ a:visited {
   margin-right: 13px;
   margin-left: 19px;
 }
-.layout .top_page .grid__column-2 .right__AppContainer header .search__Container .search__Box .input__Search {
+.layout .top__page .grid__column-2 .right__AppContainer header .search__Container .search__Box .input__Search {
   width: 426px;
   max-width: 100%;
   border: 1px solid var(--search-color-primary);
@@ -233,29 +235,29 @@ a:visited {
   height: 50px;
   padding: 10px 10px 6px 10px;
 }
-.layout .top_page .grid__column-2 .right__AppContainer header .search__Container .search__Box .icon__Search {
+.layout .top__page .grid__column-2 .right__AppContainer header .search__Container .search__Box .icon__Search {
   width: 18px;
   height: 18px;
 }
-.layout .top_page .grid__column-2 .right__AppContainer header .search__Container .btn__Search {
+.layout .top__page .grid__column-2 .right__AppContainer header .search__Container .btn__Search {
   background-color: var(--primary-color);
   color: var(--white-color);
   width: 94px;
   height: 49px;
   border-radius: 10px;
 }
-.layout .top_page .grid__column-2 .right__AppContainer main {
+.layout .top__page .grid__column-2 .right__AppContainer main {
   grid-row: 2;
   margin-top: 49px;
 }
-.layout .top_page .grid__column-2 .right__AppContainer main #section1 {
+.layout .top__page .grid__column-2 .right__AppContainer main #section1 {
   width: 931px;
 }
-.layout .top_page .grid__column-2 .right__AppContainer main #section1 .title_guild {
+.layout .top__page .grid__column-2 .right__AppContainer main #section1 .title__Guild {
   display: flex;
   flex-wrap: wrap;
 }
-.layout .top_page .grid__column-2 .right__AppContainer main #section1 .title_guild h2 {
+.layout .top__page .grid__column-2 .right__AppContainer main #section1 .title__Guild h2 {
   margin-top: 40px;
   height: 27px;
   font-size: 26px;
@@ -265,15 +267,15 @@ a:visited {
   text-align: left;
   color: var(--primary-color);
 }
-.layout .top_page .grid__column-2 .right__AppContainer main #section1 .title_guild p {
+.layout .top__page .grid__column-2 .right__AppContainer main #section1 .title__Guild p {
   margin-top: 18px;
   margin-left: 3px;
 }
-.layout .top_page .grid__column-2 .right__AppContainer main #section1 .title_guild img {
+.layout .top__page .grid__column-2 .right__AppContainer main #section1 .title__Guild img {
   width: 189.7px;
   height: 148.6px;
 }
-.layout .top_page .grid__column-2 .right__AppContainer main #section1 .content_guild {
+.layout .top__page .grid__column-2 .right__AppContainer main #section1 .content_guild {
   margin-top: 23px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -282,7 +284,7 @@ a:visited {
   justify-content: center;
   align-items: center;
 }
-.layout .top_page .grid__column-2 .right__AppContainer main #section1 .content_guild .btn_3col {
+.layout .top__page .grid__column-2 .right__AppContainer main #section1 .content_guild .btn__3col {
   max-width: 100%;
   height: 145px;
   justify-content: center;
@@ -294,7 +296,7 @@ a:visited {
   padding: 23px 31px;
   line-height: 30px;
 }
-.layout .top_page .grid__column-2 .right__AppContainer main #section1 .content_guild .btn_3col p {
+.layout .top__page .grid__column-2 .right__AppContainer main #section1 .content_guild .btn__3col p {
   margin-bottom: 30px;
   height: 49px;
   font-size: 18px;
@@ -304,55 +306,55 @@ a:visited {
   text-align: center;
   color: var(--primary-color);
 }
-.layout .top_page .grid__column-2 .right__AppContainer main #section1 .content_guild .btn_3col .icon_titleChart {
+.layout .top__page .grid__column-2 .right__AppContainer main #section1 .content_guild .btn__3col .icon_titleChart {
   margin-bottom: 1px;
   margin-top: -1px;
   width: 41px;
   height: 27px;
 }
-.layout .top_page .grid__column-2 .right__AppContainer main #section1 .content_guild .btn_3col .icon_titleUser {
+.layout .top__page .grid__column-2 .right__AppContainer main #section1 .content_guild .btn__3col .icon_titleUser {
   margin-bottom: 2px;
   width: 21px;
   height: 26px;
 }
-.layout .top_page .grid__column-2 .right__AppContainer main #section1 .content_guild .btn_3col .icon_titleGrow {
+.layout .top__page .grid__column-2 .right__AppContainer main #section1 .content_guild .btn__3col .icon_titleGrow {
   margin-bottom: 1px;
   margin-right: 10px;
   width: 36px;
   height: 42px;
 }
-.layout .top_page .grid__column-2 .right__AppContainer main #section1 .content_guild .btn_3col .icon_titleSearch {
+.layout .top__page .grid__column-2 .right__AppContainer main #section1 .content_guild .btn__3col .icon_titleSearch {
   margin-bottom: 5px;
   margin-top: 8px;
   width: 29px;
   height: 29px;
 }
-.layout .top_page .grid__column-2 .right__AppContainer main #section1 .content_guild .btn_3col .icon_titleWindow {
+.layout .top__page .grid__column-2 .right__AppContainer main #section1 .content_guild .btn__3col .icon_titleWindow {
   margin-top: 1px;
   margin-right: 8px;
   margin-bottom: 4px;
   width: 30px;
   height: 37px;
 }
-.layout .top_page .grid__column-2 .right__AppContainer main #section1 .content_guild .btn_3col .icon_titleMessage {
+.layout .top__page .grid__column-2 .right__AppContainer main #section1 .content_guild .btn__3col .icon_titleMessage {
   margin-top: 7px;
   margin-bottom: -8px;
   width: 41px;
   height: 32px;
 }
-.layout .top_page .grid__column-2 .right__AppContainer main #section2 {
+.layout .top__page .grid__column-2 .right__AppContainer main #section2 {
   position: relative;
   margin-top: 80px;
 }
-.layout .top_page .grid__column-2 .right__AppContainer main #section2 .title_output {
+.layout .top__page .grid__column-2 .right__AppContainer main #section2 .title__Output {
   margin-top: 80px;
   display: flex;
 }
-.layout .top_page .grid__column-2 .right__AppContainer main #section2 .title_output img {
+.layout .top__page .grid__column-2 .right__AppContainer main #section2 .title__Output img {
   width: 122.1px;
   height: 137.4px;
 }
-.layout .top_page .grid__column-2 .right__AppContainer main #section2 .title_output h2 {
+.layout .top__page .grid__column-2 .right__AppContainer main #section2 .title__Output h2 {
   margin-top: 36px;
   color: var(--primary-color);
   width: 235px;
@@ -364,7 +366,7 @@ a:visited {
   font-style: normal;
   text-align: left;
 }
-.layout .top_page .grid__column-2 .right__AppContainer main #section2 .title_output p {
+.layout .top__page .grid__column-2 .right__AppContainer main #section2 .title__Output p {
   height: 17px;
   font-size: 16px;
   font-weight: 400;
@@ -372,16 +374,24 @@ a:visited {
   font-style: normal;
   text-align: left;
 }
-.layout .top_page .grid__column-2 .right__AppContainer main #section2 .content_output_icon {
+.layout .top__page .grid__column-2 .right__AppContainer main #section2 .content_output_icon {
   margin-top: 30px;
   width: auto;
+  /*
+  điều chỉnh hình dạng đường thẳng trong subTitle
+  ở trường hợp này ta có hình dài và hình ngắn trên design 
+  nên có thêm class line_medium
+  */
+  /*
+  Dàn layout cho các button
+  */
 }
-.layout .top_page .grid__column-2 .right__AppContainer main #section2 .content_output_icon .output__subTitle {
+.layout .top__page .grid__column-2 .right__AppContainer main #section2 .content_output_icon .output__subTitle {
   height: 52.1px;
   position: relative;
   border-top: 1px solid var(--primary-color);
 }
-.layout .top_page .grid__column-2 .right__AppContainer main #section2 .content_output_icon .output__subTitle h2 {
+.layout .top__page .grid__column-2 .right__AppContainer main #section2 .content_output_icon .output__subTitle h2 {
   font-size: 20px;
   font-weight: bold;
   line-height: 20px;
@@ -393,13 +403,13 @@ a:visited {
   position: absolute;
   bottom: 2px;
 }
-.layout .top_page .grid__column-2 .right__AppContainer main #section2 .content_output_icon .output__subTitle-2 {
+.layout .top__page .grid__column-2 .right__AppContainer main #section2 .content_output_icon .output__subTitle-2 {
   height: 52.1px;
   position: relative;
   border-top: 1px solid var(--primary-color);
   margin-top: 50px;
 }
-.layout .top_page .grid__column-2 .right__AppContainer main #section2 .content_output_icon .output__subTitle-2 h2 {
+.layout .top__page .grid__column-2 .right__AppContainer main #section2 .content_output_icon .output__subTitle-2 h2 {
   font-size: 20px;
   font-weight: bold;
   line-height: 20px;
@@ -411,13 +421,13 @@ a:visited {
   position: absolute;
   bottom: 3px;
 }
-.layout .top_page .grid__column-2 .right__AppContainer main #section2 .content_output_icon .output__subTitle-3 {
+.layout .top__page .grid__column-2 .right__AppContainer main #section2 .content_output_icon .output__subTitle-3 {
   height: 52.1px;
   position: relative;
   border-top: 1px solid var(--primary-color);
   margin-top: 56px;
 }
-.layout .top_page .grid__column-2 .right__AppContainer main #section2 .content_output_icon .output__subTitle-3 h2 {
+.layout .top__page .grid__column-2 .right__AppContainer main #section2 .content_output_icon .output__subTitle-3 h2 {
   font-size: 20px;
   font-weight: bold;
   line-height: 20px;
@@ -429,24 +439,24 @@ a:visited {
   position: absolute;
   bottom: 2px;
 }
-.layout .top_page .grid__column-2 .right__AppContainer main #section2 .content_output_icon .line {
+.layout .top__page .grid__column-2 .right__AppContainer main #section2 .content_output_icon .line {
   position: absolute;
   width: 214px;
   height: 4px;
 }
-.layout .top_page .grid__column-2 .right__AppContainer main #section2 .content_output_icon .line_medium {
+.layout .top__page .grid__column-2 .right__AppContainer main #section2 .content_output_icon .line_medium {
   position: absolute;
   width: 120px;
   height: 4px;
 }
-.layout .top_page .grid__column-2 .right__AppContainer main #section2 .content_output_icon .button_4col-layout {
+.layout .top__page .grid__column-2 .right__AppContainer main #section2 .content_output_icon .button_4col-layout {
   margin-top: 21px;
   margin-bottom: 47px;
   display: flex;
   flex-wrap: wrap;
   gap: 17px;
 }
-.layout .top_page .grid__column-2 .right__AppContainer main #section2 .content_output_icon .button_4col-layout .btn_4col {
+.layout .top__page .grid__column-2 .right__AppContainer main #section2 .content_output_icon .button_4col-layout .btn__4col {
   width: 220px;
   height: 160px;
   background-color: var(--background-color-primary);
@@ -456,18 +466,18 @@ a:visited {
   line-height: 40px;
   padding: 20px 20px;
 }
-.layout .top_page .grid__column-2 .right__AppContainer main #section2 .content_output_icon .button_4col-layout .btn_4col .icon_output {
+.layout .top__page .grid__column-2 .right__AppContainer main #section2 .content_output_icon .button_4col-layout .btn__4col .icon_output {
   width: 67%;
 }
-.layout .top_page .grid__column-2 .right__AppContainer main #section2 .content_output_icon .button_4col-layout .btn_4col .icon_output_1 {
+.layout .top__page .grid__column-2 .right__AppContainer main #section2 .content_output_icon .button_4col-layout .btn__4col .icon_output_1 {
   width: 135px;
   height: 60.8px;
 }
-.layout .top_page .grid__column-2 .right__AppContainer main #section2 .content_output_icon .button_4col-layout .btn_4col .icon_output_7 {
+.layout .top__page .grid__column-2 .right__AppContainer main #section2 .content_output_icon .button_4col-layout .btn__4col .icon_output_7 {
   width: 104.5px;
   height: 44.4px;
 }
-.layout .top_page .grid__column-2 .right__AppContainer main #section2 .content_output_icon .button_4col-layout .btn_4col p {
+.layout .top__page .grid__column-2 .right__AppContainer main #section2 .content_output_icon .button_4col-layout .btn__4col p {
   font-size: 16px;
   font-weight: 500;
   line-height: 30px;
@@ -475,22 +485,22 @@ a:visited {
   text-align: center;
   color: var(--primary-color);
 }
-.layout .top_page .grid__column-2 .right__AppContainer main #section3 {
+.layout .top__page .grid__column-2 .right__AppContainer main #section3 {
   margin-bottom: 155px;
 }
-.layout .top_page .grid__column-2 .right__AppContainer main #section3 .title_function {
+.layout .top__page .grid__column-2 .right__AppContainer main #section3 .title__Function {
   margin-top: 96px;
   display: flex;
 }
-.layout .top_page .grid__column-2 .right__AppContainer main #section3 .title_function .intro_function {
+.layout .top__page .grid__column-2 .right__AppContainer main #section3 .title__Function .intro_function {
   margin-left: 18px;
   margin-top: 32px;
 }
-.layout .top_page .grid__column-2 .right__AppContainer main #section3 .title_function img {
+.layout .top__page .grid__column-2 .right__AppContainer main #section3 .title__Function img {
   width: 125px;
   height: 117.4px;
 }
-.layout .top_page .grid__column-2 .right__AppContainer main #section3 .title_function h2 {
+.layout .top__page .grid__column-2 .right__AppContainer main #section3 .title__Function h2 {
   height: 27px;
   font-size: 26px;
   font-weight: bold;
@@ -500,30 +510,33 @@ a:visited {
   color: var(--primary-color);
   margin-bottom: 23px;
 }
-.layout .top_page .grid__column-2 .right__AppContainer main #section3 .title_function p {
+.layout .top__page .grid__column-2 .right__AppContainer main #section3 .title__Function p {
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
   font-style: normal;
   text-align: left;
 }
-.layout .top_page .grid__column-2 .right__AppContainer main #section3 .content_function {
+.layout .top__page .grid__column-2 .right__AppContainer main #section3 .content_function {
   margin-top: 41px;
   gap: 15px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(303px, 458px));
+  /* Phần này mình chia làm 4 rows
+  với mỗi rows chỉ chỉnh sửa thuộc tính margin và các chữ, độ dài của Line
+  trong function__Text cho giống design còn lại thì tương tự nhau */
 }
-.layout .top_page .grid__column-2 .right__AppContainer main #section3 .content_function .function__subTitle {
+.layout .top__page .grid__column-2 .right__AppContainer main #section3 .content_function .function__subTitle {
   height: 52.1px;
   position: relative;
   border-top: 1px solid var(--primary-color);
 }
-.layout .top_page .grid__column-2 .right__AppContainer main #section3 .content_function .function__subTitle .line {
+.layout .top__page .grid__column-2 .right__AppContainer main #section3 .content_function .function__subTitle .line {
   position: absolute;
   height: 4px;
   width: 60px;
 }
-.layout .top_page .grid__column-2 .right__AppContainer main #section3 .content_function .function__subTitle h2 {
+.layout .top__page .grid__column-2 .right__AppContainer main #section3 .content_function .function__subTitle h2 {
   font-size: 20px;
   font-weight: bold;
   line-height: 20px;
@@ -533,23 +546,23 @@ a:visited {
   bottom: 2px;
   color: var(--primary-color);
 }
-.layout .top_page .grid__column-2 .right__AppContainer main #section3 .content_function .function__subTitle-row2 {
+.layout .top__page .grid__column-2 .right__AppContainer main #section3 .content_function .function__subTitle-row2 {
   height: 52.1px;
   margin-top: 23px;
   height: 52.1px;
   position: relative;
   border-top: 1px solid var(--primary-color);
 }
-.layout .top_page .grid__column-2 .right__AppContainer main #section3 .content_function .function__subTitle-row2 .line {
+.layout .top__page .grid__column-2 .right__AppContainer main #section3 .content_function .function__subTitle-row2 .line {
   position: absolute;
   height: 4px;
   width: 60px;
 }
-.layout .top_page .grid__column-2 .right__AppContainer main #section3 .content_function .function__subTitle-row2 .line_4 {
+.layout .top__page .grid__column-2 .right__AppContainer main #section3 .content_function .function__subTitle-row2 .line_4 {
   position: absolute;
   width: 160px;
 }
-.layout .top_page .grid__column-2 .right__AppContainer main #section3 .content_function .function__subTitle-row2 h2 {
+.layout .top__page .grid__column-2 .right__AppContainer main #section3 .content_function .function__subTitle-row2 h2 {
   font-size: 20px;
   font-weight: bold;
   line-height: 20px;
@@ -559,27 +572,27 @@ a:visited {
   bottom: 2px;
   color: var(--primary-color);
 }
-.layout .top_page .grid__column-2 .right__AppContainer main #section3 .content_function .function__subTitle-row3 {
+.layout .top__page .grid__column-2 .right__AppContainer main #section3 .content_function .function__subTitle-row3 {
   height: 52.1px;
   margin-top: 15px;
   height: 52.1px;
   position: relative;
   border-top: 1px solid var(--primary-color);
 }
-.layout .top_page .grid__column-2 .right__AppContainer main #section3 .content_function .function__subTitle-row3 .line {
+.layout .top__page .grid__column-2 .right__AppContainer main #section3 .content_function .function__subTitle-row3 .line {
   position: absolute;
   height: 4px;
   width: 60px;
 }
-.layout .top_page .grid__column-2 .right__AppContainer main #section3 .content_function .function__subTitle-row3 .line_5 {
+.layout .top__page .grid__column-2 .right__AppContainer main #section3 .content_function .function__subTitle-row3 .line_5 {
   position: absolute;
   width: 80px;
 }
-.layout .top_page .grid__column-2 .right__AppContainer main #section3 .content_function .function__subTitle-row3 .line_6 {
+.layout .top__page .grid__column-2 .right__AppContainer main #section3 .content_function .function__subTitle-row3 .line_6 {
   position: absolute;
   width: 179px;
 }
-.layout .top_page .grid__column-2 .right__AppContainer main #section3 .content_function .function__subTitle-row3 h2 {
+.layout .top__page .grid__column-2 .right__AppContainer main #section3 .content_function .function__subTitle-row3 h2 {
   font-size: 20px;
   font-weight: bold;
   line-height: 20px;
@@ -589,23 +602,23 @@ a:visited {
   bottom: 2px;
   color: var(--primary-color);
 }
-.layout .top_page .grid__column-2 .right__AppContainer main #section3 .content_function .function__subTitle-row4 {
+.layout .top__page .grid__column-2 .right__AppContainer main #section3 .content_function .function__subTitle-row4 {
   height: 52.1px;
   margin-top: 24px;
   height: 52.1px;
   position: relative;
   border-top: 1px solid var(--primary-color);
 }
-.layout .top_page .grid__column-2 .right__AppContainer main #section3 .content_function .function__subTitle-row4 .line {
+.layout .top__page .grid__column-2 .right__AppContainer main #section3 .content_function .function__subTitle-row4 .line {
   position: absolute;
   height: 4px;
   width: 60px;
 }
-.layout .top_page .grid__column-2 .right__AppContainer main #section3 .content_function .function__subTitle-row4 .line_7 {
+.layout .top__page .grid__column-2 .right__AppContainer main #section3 .content_function .function__subTitle-row4 .line_7 {
   position: absolute;
   width: 119px;
 }
-.layout .top_page .grid__column-2 .right__AppContainer main #section3 .content_function .function__subTitle-row4 h2 {
+.layout .top__page .grid__column-2 .right__AppContainer main #section3 .content_function .function__subTitle-row4 h2 {
   font-size: 20px;
   font-weight: bold;
   line-height: 20px;
@@ -615,7 +628,7 @@ a:visited {
   bottom: 2px;
   color: var(--primary-color);
 }
-.layout .top_page .grid__column-2 .right__AppContainer main #section3 .content_function .function__Box .function__Text {
+.layout .top__page .grid__column-2 .right__AppContainer main #section3 .content_function .function__Box .function__Text {
   color: var(--primary-color);
   padding-top: 16px;
   font-size: 16px;
@@ -624,7 +637,7 @@ a:visited {
   font-style: normal;
   text-align: left;
 }
-.layout .top_page .grid__column-2 .right__AppContainer main #section3 .content_function .function__Box .function__Text-smallLineHeight {
+.layout .top__page .grid__column-2 .right__AppContainer main #section3 .content_function .function__Box .function__Text-smallLineHeight {
   color: var(--primary-color);
   margin-top: 9px;
   font-size: 16px;
@@ -634,114 +647,114 @@ a:visited {
   text-align: left;
 }
 @media only screen and (min-width: 740px) and (max-width: 1024px) {
-  .layout .top_page {
+  .layout .top__page {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
   }
-  .layout .top_page .grid__column-1 {
+  .layout .top__page .grid__column-1 {
     display: none;
   }
-  .layout .top_page .grid__column-2 .right__AppContainer {
+  .layout .top__page .grid__column-2 .right__AppContainer {
     margin: 0 auto;
   }
-  .layout .top_page .grid__column-2 .right__AppContainer .search__Container {
+  .layout .top__page .grid__column-2 .right__AppContainer .search__Container {
     justify-content: center;
     height: 50px;
     display: flex;
     padding: 0 0;
   }
-  .layout .top_page .grid__column-2 .right__AppContainer .search__Container p {
+  .layout .top__page .grid__column-2 .right__AppContainer .search__Container p {
     display: none;
   }
-  .layout .top_page .grid__column-2 .right__AppContainer .search__Container .search__Box {
+  .layout .top__page .grid__column-2 .right__AppContainer .search__Container .search__Box {
     display: flex;
     padding: 0 0;
     width: 60%;
   }
-  .layout .top_page .grid__column-2 .right__AppContainer .search__Container .search__Box .input__Search {
+  .layout .top__page .grid__column-2 .right__AppContainer .search__Container .search__Box .input__Search {
     height: 30px;
     width: 100%;
   }
-  .layout .top_page .grid__column-2 .right__AppContainer .search__Container .btn__Search {
+  .layout .top__page .grid__column-2 .right__AppContainer .search__Container .btn__Search {
     height: 30px;
   }
 }
 @media screen and (max-width: 739px) {
-  .layout .top_page {
+  .layout .top__page {
     margin: 0 10px;
     display: flex;
     flex-direction: column;
   }
-  .layout .top_page .grid__column-1 {
+  .layout .top__page .grid__column-1 {
     display: none;
   }
-  .layout .top_page .grid__column-2 .right__AppContainer {
+  .layout .top__page .grid__column-2 .right__AppContainer {
     margin: 0 0;
   }
-  .layout .top_page .grid__column-2 .right__AppContainer header .header__Container .bread,
-  .layout .top_page .grid__column-2 .right__AppContainer header .header__Container .nav {
+  .layout .top__page .grid__column-2 .right__AppContainer header .header__Container .bread,
+  .layout .top__page .grid__column-2 .right__AppContainer header .header__Container .nav {
     display: none;
   }
-  .layout .top_page .grid__column-2 .right__AppContainer header .search__Container {
+  .layout .top__page .grid__column-2 .right__AppContainer header .search__Container {
     height: 50px;
     width: 100%;
     display: flex;
     padding: 0 0;
   }
-  .layout .top_page .grid__column-2 .right__AppContainer header .search__Container p {
+  .layout .top__page .grid__column-2 .right__AppContainer header .search__Container p {
     display: none;
   }
-  .layout .top_page .grid__column-2 .right__AppContainer header .search__Container .search__Box {
+  .layout .top__page .grid__column-2 .right__AppContainer header .search__Container .search__Box {
     display: flex;
     margin: 0 auto;
     width: 60%;
   }
-  .layout .top_page .grid__column-2 .right__AppContainer header .search__Container .search__Box .input__Search {
+  .layout .top__page .grid__column-2 .right__AppContainer header .search__Container .search__Box .input__Search {
     height: 30px;
     width: 100%;
   }
-  .layout .top_page .grid__column-2 .right__AppContainer header .search__Container .btn__Search {
+  .layout .top__page .grid__column-2 .right__AppContainer header .search__Container .btn__Search {
     height: 30px;
     margin-right: 20px;
   }
-  .layout .top_page .grid__column-2 .right__AppContainer main #section1 {
+  .layout .top__page .grid__column-2 .right__AppContainer main #section1 {
     width: auto;
   }
-  .layout .top_page .grid__column-2 .right__AppContainer main #section1 .title_guild {
+  .layout .top__page .grid__column-2 .right__AppContainer main #section1 .title__Guild {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0 0;
   }
-  .layout .top_page .grid__column-2 .right__AppContainer main #section1 .title_guild h2 {
+  .layout .top__page .grid__column-2 .right__AppContainer main #section1 .title__Guild h2 {
     margin-top: 30px;
   }
-  .layout .top_page .grid__column-2 .right__AppContainer main #section2 .title_output {
+  .layout .top__page .grid__column-2 .right__AppContainer main #section2 .title__Output {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0 0;
   }
-  .layout .top_page .grid__column-2 .right__AppContainer main #section2 .title_output h2 {
+  .layout .top__page .grid__column-2 .right__AppContainer main #section2 .title__Output h2 {
     margin-top: 30px;
   }
-  .layout .top_page .grid__column-2 .right__AppContainer main #section2 .content_output_icon .button_4col-layout {
+  .layout .top__page .grid__column-2 .right__AppContainer main #section2 .content_output_icon .button_4col-layout {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .layout .top_page .grid__column-2 .right__AppContainer main #section3 .title_function {
+  .layout .top__page .grid__column-2 .right__AppContainer main #section3 .title__Function {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0 0;
   }
-  .layout .top_page .grid__column-2 .right__AppContainer main #section3 .title_function .intro_function {
+  .layout .top__page .grid__column-2 .right__AppContainer main #section3 .title__Function .intro_function {
     margin: 0 10px;
   }
-  .layout .top_page #dropdown {
+  .layout .top__page #dropdown {
     color: var(--white-color);
     background-color: var(--primary-color);
     padding: 5px 20px;
@@ -751,22 +764,23 @@ a:visited {
     top: 5px;
     z-index: 22;
   }
-  .layout .top_page #brdcrmb {
+  .layout .top__page #brdcrmb {
     height: auto;
     display: flex;
     background-color: var(--primary-color);
     margin-top: 10px;
     padding: 10px 20px;
   }
-  .layout .top_page .breadcrumb {
+  .layout .top__page .breadcrumb {
     display: flex;
   }
-  .layout .top_page #brdcrmb li {
+  .layout .top__page #brdcrmb li {
     display: flex;
     color: var(--white-color);
   }
 }
 
+/* RESPONSIVE 2: phần này dành cho các phần tử bên ngoài top_page */
 @media only screen and (min-width: 740px) and (max-width: 1024px) {
   .layout {
     margin: 0 auto;

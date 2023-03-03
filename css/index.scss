@@ -82,7 +82,7 @@ a:visited {
     display: grid;
     justify-content: center;
 
-    .top_page {
+    .top__page {
         display: grid;
         justify-content: center;
         max-width: 100%;
@@ -106,7 +106,7 @@ a:visited {
         .grid__column-1 {
 
             // leftNavi
-            .leftNavi {
+            .left__Navi {
                 height: 521px;
                 width: 220px;
                 display: flex;
@@ -249,6 +249,7 @@ a:visited {
                         flex-wrap: wrap;
                         padding: 0 85px;
 
+                        // Phần vỏ ngoài màu trắng của thanh search
                         .search__Box {
                             width: 426px;
                             border: 1px solid var(--search-color-primary);
@@ -260,6 +261,7 @@ a:visited {
                             margin-right: 13px;
                             margin-left: 19px;
 
+                            // nơi để nhập từ khóa
                             .input__Search {
 
                                 width: 426px;
@@ -274,11 +276,9 @@ a:visited {
                                 text-align: left;
                                 height: 50px;
                                 padding: 10px 10px 6px 10px;
-
                             }
 
                             .icon__Search {
-
                                 width: 18px;
                                 height: 18px;
                             }
@@ -304,16 +304,14 @@ a:visited {
                     #section1 {
                         width: 931px;
 
-                        // Title Guild:
-                        .title_guild {
-
+                        // title_guild:
+                        .title__Guild {
                             display: flex;
                             flex-wrap: wrap;
 
                             h2 {
                                 margin-top: 40px;
                                 height: 27px;
-
                                 font-size: 26px;
                                 font-weight: bold;
                                 line-height: 26px;
@@ -343,8 +341,8 @@ a:visited {
                             justify-content: center;
                             align-items: center;
 
-                            // Content Guild Button
-                            .btn_3col {
+                            // btn_3col:
+                            .btn__3col {
                                 max-width: 100%;
                                 height: 145px;
                                 justify-content: center;
@@ -368,6 +366,7 @@ a:visited {
                                     color: var(--primary-color);
                                 }
 
+                                // dưới đây là định dạng cho từng hình trong button 
                                 .icon {
                                     &_titleChart {
                                         margin-bottom: 1px;
@@ -421,8 +420,8 @@ a:visited {
                         position: relative;
                         margin-top: 80px;
 
-                        // Title Output
-                        .title_output {
+                        // title_output
+                        .title__Output {
                             margin-top: 80px;
                             display: flex;
 
@@ -436,7 +435,6 @@ a:visited {
                                 color: var(--primary-color);
                                 width: 235px;
                                 height: 27px;
-
                                 font-size: 26px;
                                 font-weight: bold;
                                 line-height: 26px;
@@ -447,7 +445,6 @@ a:visited {
 
                             p {
                                 height: 17px;
-
                                 font-size: 16px;
                                 font-weight: 400;
                                 line-height: 16px;
@@ -466,7 +463,6 @@ a:visited {
                                 border-top: 1px solid var(--primary-color);
 
                                 h2 {
-
                                     font-size: 20px;
                                     font-weight: bold;
                                     line-height: 20px;
@@ -487,7 +483,6 @@ a:visited {
                                 margin-top: 50px;
 
                                 h2 {
-
                                     font-size: 20px;
                                     font-weight: bold;
                                     line-height: 20px;
@@ -508,7 +503,6 @@ a:visited {
                                 margin-top: 56px;
 
                                 h2 {
-
                                     font-size: 20px;
                                     font-weight: bold;
                                     line-height: 20px;
@@ -522,6 +516,11 @@ a:visited {
                                 }
                             }
 
+                            /*
+                            điều chỉnh hình dạng đường thẳng trong subTitle
+                            ở trường hợp này ta có hình dài và hình ngắn trên design 
+                            nên có thêm class line_medium
+                            */
                             .line {
                                 position: absolute;
                                 width: 214px;
@@ -534,6 +533,9 @@ a:visited {
                                 }
                             }
 
+                            /*
+                            Dàn layout cho các button
+                            */
                             .button_4col-layout {
                                 margin-top: 21px;
                                 margin-bottom: 47px;
@@ -541,7 +543,8 @@ a:visited {
                                 flex-wrap: wrap;
                                 gap: 17px;
 
-                                .btn_4col {
+                                // btn_4col:
+                                .btn__4col {
                                     width: 220px;
                                     height: 160px;
                                     background-color: var(--background-color-primary);
@@ -551,6 +554,7 @@ a:visited {
                                     line-height: 40px;
                                     padding: 20px 20px;
 
+                                    // Điều chỉnh cho từng hình trong button
                                     .icon_output {
                                         width: 67%;
 
@@ -567,7 +571,6 @@ a:visited {
                                     }
 
                                     p {
-
                                         font-size: 16px;
                                         font-weight: 500;
                                         line-height: 30px;
@@ -585,7 +588,8 @@ a:visited {
                     #section3 {
                         margin-bottom: 155px;
 
-                        .title_function {
+                        // title_function:
+                        .title__Function {
                             margin-top: 96px;
                             display: flex;
 
@@ -611,7 +615,6 @@ a:visited {
                             }
 
                             p {
-
                                 font-size: 16px;
                                 font-weight: 400;
                                 line-height: 16px;
@@ -626,7 +629,9 @@ a:visited {
                             display: grid;
                             grid-template-columns: repeat(auto-fit, minmax(303px, 458px));
 
-                            // subTitle
+                            /* Phần này mình chia làm 4 rows
+                            với mỗi rows chỉ chỉnh sửa thuộc tính margin và các chữ, độ dài của Line
+                            trong function__Text cho giống design còn lại thì tương tự nhau */
                             .function__subTitle {
                                 height: 52.1px;
                                 position: relative;
@@ -734,8 +739,6 @@ a:visited {
                                 }
 
                                 h2 {
-
-
                                     font-size: 20px;
                                     font-weight: bold;
                                     line-height: 20px;
@@ -777,11 +780,12 @@ a:visited {
         }
     }
 
-    // RESPONSIVE:
+    /* RESPONSIVE 1 top_page: phần này dành cho các phần tử tính từ top_page vào trong */
+
     // tablet: 740<= width < 1024
     @media only screen and (min-width: 740px) and (max-width: 1024px) {
 
-        .top_page {
+        .top__page {
             margin: 0 auto;
             display: flex;
             flex-direction: column;
@@ -824,14 +828,14 @@ a:visited {
         }
     }
 
-
     // moblie: width < 740px
     @media screen and (max-width: 739px) {
-        .top_page {
+        .top__page {
             margin: 0 10px;
             display: flex;
             flex-direction: column;
 
+            // ẩn thanh menu
             .grid__column-1 {
                 display: none;
             }
@@ -879,10 +883,12 @@ a:visited {
                     }
 
                     main {
+
+                        // responsive Ss 1
                         #section1 {
                             width: auto;
 
-                            .title_guild {
+                            .title__Guild {
                                 display: flex;
                                 flex-direction: column;
                                 align-items: center;
@@ -894,8 +900,9 @@ a:visited {
                             }
                         }
 
+                        // responsive Ss 2
                         #section2 {
-                            .title_output {
+                            .title__Output {
                                 display: flex;
                                 flex-direction: column;
                                 align-items: center;
@@ -917,8 +924,10 @@ a:visited {
                             }
                         }
 
+                        // responsive Ss 3
                         #section3 {
-                            .title_function {
+
+                            .title__Function {
                                 display: flex;
                                 flex-direction: column;
                                 align-items: center;
@@ -934,6 +943,7 @@ a:visited {
                 }
             }
 
+            // Breadcrumb menu: ON
             #dropdown {
                 color: var(--white-color);
                 background-color: var(--primary-color);
@@ -965,7 +975,7 @@ a:visited {
     }
 }
 
-// RESPONSIVE LAYOUT, COMMON, FOOTER
+/* RESPONSIVE 2: phần này dành cho các phần tử bên ngoài top_page */
 
 // tablet: 740<= width < 1024
 @media only screen and (min-width: 740px) and (max-width: 1024px) {

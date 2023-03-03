@@ -1,5 +1,37 @@
+
+Nộp bài Technical Test:
+
+Họ tên: Võ Phong Giang
+Ứng tuyển vị trí: Fresher Front End Developer
+
+Về bài Test:
+	Tôi cam kết tự thực hiện bài Test và code tay 100% không có sự trợ giúp bên ngoài và framework, boostrap,..
+
+Techstack: HTML, JS, SCSS (extention: live sass compiler)
+IDE: Visual Studio Code
+Browser: Microsoft Edge
+
+Các yêu cầu đã thực hiện:
+
+	1. Đã add font tiếng nhật.
+
+	2. Tái hiện thành công UI tìm kiếm.
+
+	3. Thiết lập href="#" cho toàn bộ link.
+
+	4. Code bằng SCSS và dùng extention: Live sass compiler.
+
+	5. Đã thực hiện Responsive để không bị vỡ layout trên màn hình smartphone. 
+	Trên bản smartphone đã làm menu chạy từ bên trái theo kiểu breadcrumb menu (hiển thị dưới thanh tìm kiếm). 
+	Có chức năng đóng mở breadcrumb thực hiện bằng Javascript (sử dụng hàm siblings() trong jQuery).
+
+	6. Hoàn toàn không sử dụng Bootstrap hay bất kỳ framework (HTML, CSS) nào để code.
+
+	7. Đã cố gắng thực hiện coding mô phỏng design giống nhất có thể (perfect pixel).
+
+
 Note: 
-Đây là file tên các class (đặt theo layout cho trước + có thêm một vài tên khác tự đặt)
+Một vài trong số các tên các class đặt theo layout cho trước (có một vài tên khác tự đặt theo cá nhân)
 
 <Layout>
 	<top_page> (có 2 grid__column)
@@ -36,18 +68,27 @@ Note:
                             #Section 2: Output 
                                 title_ouput
                                 content_output_icon
-                                    subTitle
+                                    output__subTitle
                                     btn_4col      
 
                             #Section 3: Function 
                                 title_function
                                 content_function 
                                     subTitle
-                                    function
+					function__Box
+						function__subTitle
+                                    		function__Text
+					
                         </Main>
                     </right__AppContainer>
                 </right__Container>
             </grid_column-2>
     <top_page>                                
 <layout>
-<Footer>:
+<footer>
+    <box></box>
+</footer>
+
+Xin cảm ơn!
+Trân trọng
+Giang
