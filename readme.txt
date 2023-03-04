@@ -1,12 +1,4 @@
 
-Nộp bài Technical Test:
-
-Họ tên: Võ Phong Giang
-Ứng tuyển vị trí: Fresher Front End Developer
-
-Về bài Test:
-	Tôi cam kết tự thực hiện bài Test và code tay 100% không có sự trợ giúp bên ngoài và framework, boostrap,..
-
 Techstack: HTML, JS, SCSS (extention: live sass compiler)
 IDE: Visual Studio Code
 Browser: Microsoft Edge
