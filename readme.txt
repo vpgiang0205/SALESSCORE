@@ -3,8 +3,6 @@ Techstack: HTML, JS, SCSS (extention: live sass compiler)
 IDE: Visual Studio Code
 Browser: Microsoft Edge
 
-Các yêu cầu thực hiện:
-
 	1. add font tiếng nhật.
 
 	2. Tái hiện thành công UI tìm kiếm.
