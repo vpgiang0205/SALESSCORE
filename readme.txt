@@ -1,19 +1,9 @@
 
-Nộp bài Technical Test:
-
-Họ tên: Võ Phong Giang
-Ứng tuyển vị trí: Fresher Front End Developer
-
-Về bài Test:
-	Tôi cam kết tự thực hiện bài Test và code tay 100% không có sự trợ giúp bên ngoài và framework, boostrap,..
-
 Techstack: HTML, JS, SCSS (extention: live sass compiler)
 IDE: Visual Studio Code
 Browser: Microsoft Edge
 
-Các yêu cầu đã thực hiện:
-
-	1. Đã add font tiếng nhật.
+	1. add font tiếng nhật.
 
 	2. Tái hiện thành công UI tìm kiếm.
 
@@ -21,13 +11,13 @@ Các yêu cầu đã thực hiện:
 
 	4. Code bằng SCSS và dùng extention: Live sass compiler.
 
-	5. Đã thực hiện Responsive để không bị vỡ layout trên màn hình smartphone. 
+	5. Responsive để không bị vỡ layout trên màn hình smartphone. 
 	Trên bản smartphone đã làm menu chạy từ bên trái theo kiểu breadcrumb menu (hiển thị dưới thanh tìm kiếm). 
 	Có chức năng đóng mở breadcrumb thực hiện bằng Javascript (sử dụng hàm siblings() trong jQuery).
 
 	6. Hoàn toàn không sử dụng Bootstrap hay bất kỳ framework (HTML, CSS) nào để code.
 
-	7. Đã cố gắng thực hiện coding mô phỏng design giống nhất có thể (perfect pixel).
+	7. Cố gắng thực hiện coding mô phỏng design giống nhất có thể (perfect pixel).
 
 
 Note: 
